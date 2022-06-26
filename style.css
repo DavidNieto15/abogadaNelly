@@ -4,7 +4,6 @@ body {
     padding: 0;
     background-color: rgba(215, 214, 248, 0.925);
 }
-
 .header {
     display: grid;
     grid-template-columns: auto auto auto auto auto auto auto;
@@ -16,7 +15,6 @@ body {
     font-size: 30px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-
 .footer {
     display: grid;
     grid-template-columns: auto auto auto auto auto auto;
@@ -29,12 +27,10 @@ body {
     font-size: 30px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-
 .typo{
     text-align: justify;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-
 .typo2{
     text-align: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -49,7 +45,6 @@ body {
     height: 150px;
     width: 90px;
 }
-
 .image_justice {
     background-image: url(img/justice.jpg);
     background-size: cover;
@@ -58,7 +53,6 @@ body {
     min-height: 600px;
     min-width: 600px;
 }
-
 .image_books {
     background-image: url(img/books.jpg);
     background-size: 100%;
@@ -67,7 +61,6 @@ body {
     min-height: 400px;
     min-width: 300px;
 }
-
 .image_dance {
     background-image: url(img/dance.jpg);
     background-size: cover;
@@ -76,7 +69,6 @@ body {
     min-height: 400px;
     min-width: 300px;
 }
-
 .image_patent {
     background-image: url(img/patente.jpg);
     background-size: cover;
@@ -85,7 +77,6 @@ body {
     min-height: 400px;
     min-width: 300px;
 }
-
 .image_libro1 {
     background-image: url(img/creactivacionismo.jpg);
     background-size: cover;
@@ -94,7 +85,6 @@ body {
     min-height: 400px;
     min-width: 300px;
 }
-
 .image_libro2 {
     background-image: url(img/digitocultura.jpg);
     background-size: cover;
@@ -103,7 +93,6 @@ body {
     min-height: 400px;
     min-width: 300px;
 }
-
 .image_link {
         background-color: #0c0263;
             background-image: url('img/linkedin.png');
@@ -113,8 +102,7 @@ body {
             display: inline-block;
             background-repeat: no-repeat;
 }
-.image_mail {
-    
+.image_mail { 
     background-color: #0c0263;
             background-image: url('img/gmail.png');
             background-size: contain;
@@ -128,31 +116,24 @@ body {
     padding: 20px;
     grid-template-columns: auto auto;
     grid-gap: 10px;
-    
 }
-
 .item3 {
     grid-column:2;
     grid-row: 1/3;
   }
-
   .grid_container_tarjeta {
     display: grid;
     padding: 20px;
     grid-template-columns: auto auto auto;
-    grid-gap: 10px;
-    
+    grid-gap: 10px;   
 }
-
 .grid_container_doble {
     display: grid;
     padding: 10px;
     grid-template-columns: auto auto ;
-    grid-gap: 10px;
-    
+    grid-gap: 10px;    
 }
 .tarjeta{
-    /*position: relative;*/
     margin: auto;
     background-color: white;
     background-size: contain;
@@ -162,11 +143,3 @@ body {
     border-radius: 10px;
     display: inline-block;
 }
-
-/*.grid_container_footpage {
-    display: grid;
-    padding: 10px;
-    grid-template-columns: auto auto auto auto auto ;
-    grid-gap: 10px;
-    
-}*/
